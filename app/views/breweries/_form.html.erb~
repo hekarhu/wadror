@@ -1,4 +1,5 @@
-
+<%= link_to 'breweries', breweries_path %>
+<%= link_to 'beers', beers_path %>
 <%= form_for(@brewery) do |f| %>
   <% if @brewery.errors.any? %>
     <div id="error_explanation">

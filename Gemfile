@@ -8,6 +8,11 @@ group :production do
    gem 'pg'
    gem 'rails_12factor'
 end
+group :development, :test do
+  gem "better_errors"
+
+  #...
+end
 ruby '2.3.0'
 gem 'therubyracer', platforms: :ruby
 gem 'rb-readline' 

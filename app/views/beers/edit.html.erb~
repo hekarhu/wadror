@@ -1,4 +1,5 @@
-
+<%= link_to 'breweries', breweries_path %>
+<%= link_to 'beers', beers_path %>
 <h1>Editing Beer</h1>
 
 <%= render 'form' %>
