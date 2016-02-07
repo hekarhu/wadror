@@ -1,6 +1,5 @@
 <p id="notice"><%= notice %></p>
-<%= link_to 'breweries', breweries_path %>
-<%= link_to 'beers', beers_path %>
+
 <h2><%= @brewery.name %></h2>
 
 <i>Established in <%= @brewery.year %></i>
